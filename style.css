@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: red; */
+  /* background-color: #2d3436; */
+  /* color: whitesmoke; */
+  font-family: 'Roboto', sans-serif;
+}
+
+************************/* Navbar */************************
+
+.navbar .navbar-brand{
+  font-size: 2.5rem;
+  color: whitesmoke;
+}
+
+.navbar .navbar-brand:hover{
+  color: grey;
+  width: 50rem;
+}
+
+.navbar-nav{
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-item .nav-link{
+  margin-right: 2.8rem;
+  color: whitesmoke;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+  color: grey;
+  width: 15rem;
+}
+
+
+
+
+************************/* Carousel image */************************
+
+.carousel-item{
+  padding-top: 0;
+  height: 100vh;
+  /* padding-left: 1rem; */
+  /* justify-items: center; */
+}
+
+.col-lg-6{
+  display: grid;
+  align-items: center;
+}
+
+.carousel-item .bg{
+  /* justify-items: center;
+  align-items: center; */
+  margin: auto;
+}
+
+.text-area{
+  padding-top: 5rem;
+  background-color: black;
+  /* color: whitesmoke; */
+}
+
+.line{
+  border: 1px;
+  margin-top: 1.5rem;
+}
+
+************************/* Our Services area */************************
+
+*****/* Card */*****
+
+.card .card> .btn{
+  background-color: red;
+}
+
+.ans{
+  padding-left: 7rem;
+}
+
+.responsive{
+  padding-top: 5rem;
+  margin-left: 15rem;
+}
+
+.app{
+  margin-top:1rem;
+  margin-left: 20rem;
+}
+
+.lastcard{
+  margin-left: 27.6rem;
+  margin-bottom: 5rem;
+}
+
+.btn-2{
+  /* color: red; */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(238, 232, 232, 0.5)) violet ;
+  margin-top: 2rem;
+  margin-left:35rem;
+  font-size: 1.5rem;
+  padding: 15px;
+  /* background-clip: padding-box; */
+}
+
+.btn-2:hover{
+  background-color:#dde1e7;
+}
+
+.slogan{
+  padding-left: 2px;
+}
+
+************************/* Contact-Us */************************
+
+.box{
+  /* background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(238, 232, 232, 0.5)) red ; */
+  /* color: white; */
+  /* padding-left: 10rem; */
+  padding-right: 10rem;
+  border: 2px solid;
+}
+
+.bg{
+  margin-left: 25rem;
+  /* align-items: center; */
+}
+
+.wrapper .icons{
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  /* float: left; */
+  margin: 0 5px;
+  background: red;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow:0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.icons i{
+  font-size: 1.5rem;
+  padding-left: 2rem;
+}
+
+.end{
+  background-color: violet;
+  justify-content: center;
+  align-items: center;
+  display:flex;
+  text-align: center;
+  padding-top: 5rem;
+}
+
